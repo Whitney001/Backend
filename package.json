@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "intro to backend",
+  "homepage": "https://github.com/Whitney001/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Whitney001/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Whitney001/Backend.git"
+  },
+  "license": "ISC",
+  "author": "Whitney",
+  "type": "module",
+  "main": "backend/src/config/index.js",
+  "scripts": {
+    "start": "node backend/src/config/index.js",
+    "dev": "nodemon backend/src/config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
